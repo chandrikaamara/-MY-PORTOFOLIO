@@ -15,7 +15,13 @@
         <img src="chandu.jpg" alt="Logo" class="logo-img" />
         <span class="logo-text">Chandrika Amara</span>
       </div>
-      <ul class="nav-list">
+
+      <div class="menu-toggle" id="menu-toggle">
+  <i class="fas fa-bars"></i>
+</div>
+
+      <ul class="nav-list" id="nav-list">
+
         <li><a href="#home"><i class="fas fa-house"></i> Home</a></li>
         <li><a href="#about"><i class="fas fa-user"></i> About</a></li>
         <li><a href="#skills"><i class="fas fa-laptop-code"></i> Skills</a></li>
@@ -26,7 +32,7 @@
     </nav>
   </header>
 
-  <!-- Home Section (Static from About) -->
+  <!-- Home Section -->
   <section id="home" class="slide-in full-screen">
     <div class="about-container">
       <div class="about-photo">
@@ -43,93 +49,79 @@
     </div>
   </section>
 
- <!-- About Section -->
-<section id="about" class="slide-in full-screen">
-  <div class="section-card">
-    <div class="section-title"><i class="fas fa-user"></i> ABOUT</div>
-
-    <div class="about-description">
-      <p>Hello! I'm Chandrika Amara, a passionate and motivated Web and Salesforce Developer. With a strong foundation in HTML, CSS, JavaScript, and Salesforce tools. I enjoy building interactive and user-friendly websites. My goal is to continuously grow as a developer and contribute to meaningful tech solutions.</p>
-    </div>
-
-    <div class="two-column-layout">
-      <!-- Internships Column -->
-      <div class="column">
-        <h3 class="sub-section-title blue-title"><i class="fas fa-briefcase"></i> Internships</h3>
-        <div class="timeline-cards">
-          <div class="timeline-card">
-            <div class="timeline-icon">
-              <i class="fas fa-laptop-code"></i>
-            </div>
-            <div class="timeline-content">
-              <h4>Web Development Intern</h4>
-              <p class="company">Prodigy InfoTech</p>
-              <p class="date">2024</p>
-            </div>
-          </div>
-          <div class="timeline-card">
-            <div class="timeline-icon">
-              <i class="fab fa-salesforce"></i>
-            </div>
-            <div class="timeline-content">
-              <h4>Salesforce Developer Intern</h4>
-              <p class="company">SmartBridge</p>
-              <p class="date">2025</p>
-            </div>
-          </div>
-          <div class="timeline-card">
-            <div class="timeline-icon">
-              <i class="fas fa-code"></i>
-            </div>
-            <div class="timeline-content">
-              <h4>Frontend Intern</h4>
-              <p class="company">CODSOFT</p>
-              <p class="date">2024</p>
-            </div>
-          </div>
-          
-        </div>
+  <!-- About Section -->
+  <section id="about" class="slide-in full-screen">
+    <div class="section-card">
+      <div class="section-title"><i class="fas fa-user"></i> ABOUT</div>
+      <div class="about-description">
+        <p>Hello! I'm Chandrika Amara, a passionate and motivated Web and Salesforce Developer. With a strong foundation in HTML, CSS, JavaScript, and Salesforce tools. I enjoy building interactive and user-friendly websites. My goal is to continuously grow as a developer and contribute to meaningful tech solutions.</p>
       </div>
 
-      <!-- Academic Journey Column -->
-      <div class="column">
-        <h3 class="sub-section-title blue-title"><i class="fas fa-graduation-cap"></i> Academic Journey</h3>
-        <div class="timeline-cards">
-          <div class="timeline-card">
-            <div class="timeline-icon">
-              <i class="fas fa-university"></i>
+      <div class="two-column-layout">
+        <!-- Internships -->
+        <div class="column">
+          <h3 class="sub-section-title blue-title"><i class="fas fa-briefcase"></i> Internships</h3>
+          <div class="timeline-cards">
+            <div class="timeline-card">
+              <div class="timeline-icon"><i class="fas fa-laptop-code"></i></div>
+              <div class="timeline-content">
+                <h4>Web Development Intern</h4>
+                <p class="company">Prodigy InfoTech</p>
+                <p class="date">2024</p>
+              </div>
             </div>
-            <div class="timeline-content">
-              <h4>B.Tech - Computer Science</h4>
-              <p class="company">Aditya Institute of Technology and Management</p>
-              <p class="date">2022 – 2026</p>
+            <div class="timeline-card">
+              <div class="timeline-icon"><i class="fab fa-salesforce"></i></div>
+              <div class="timeline-content">
+                <h4>Salesforce Developer Intern</h4>
+                <p class="company">SmartBridge</p>
+                <p class="date">2025</p>
+              </div>
+            </div>
+            <div class="timeline-card">
+              <div class="timeline-icon"><i class="fas fa-code"></i></div>
+              <div class="timeline-content">
+                <h4>Frontend Intern</h4>
+                <p class="company">CODSOFT</p>
+                <p class="date">2024</p>
+              </div>
             </div>
           </div>
-          <div class="timeline-card">
-            <div class="timeline-icon">
-              <i class="fas fa-school"></i>
+        </div>
+
+        <!-- Academic -->
+        <div class="column">
+          <h3 class="sub-section-title blue-title"><i class="fas fa-graduation-cap"></i> Academic Journey</h3>
+          <div class="timeline-cards">
+            <div class="timeline-card">
+              <div class="timeline-icon"><i class="fas fa-university"></i></div>
+              <div class="timeline-content">
+                <h4>B.Tech - Computer Science</h4>
+                <p class="company">Aditya Institute of Technology and Management</p>
+                <p class="date">2022 – 2026</p>
+              </div>
             </div>
-            <div class="timeline-content">
-              <h4>Intermediate</h4>
-              <p class="company">Mahendra Junior College</p>
-              <p class="date">2020 – 2022</p>
+            <div class="timeline-card">
+              <div class="timeline-icon"><i class="fas fa-school"></i></div>
+              <div class="timeline-content">
+                <h4>Intermediate</h4>
+                <p class="company">Mahendra Junior College</p>
+                <p class="date">2020 – 2022</p>
+              </div>
             </div>
-          </div>
-          <div class="timeline-card">
-            <div class="timeline-icon">
-              <i class="fas fa-book"></i>
-            </div>
-            <div class="timeline-content">
-              <h4>SSC</h4>
-              <p class="company">Arunodaya Primary & High School</p>
-              <p class="date">2019 – 2020</p>
+            <div class="timeline-card">
+              <div class="timeline-icon"><i class="fas fa-book"></i></div>
+              <div class="timeline-content">
+                <h4>SSC</h4>
+                <p class="company">Arunodaya Primary & High School</p>
+                <p class="date">2019 – 2020</p>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
   <!-- Skills Section -->
   <section id="skills" class="slide-in full-screen">
@@ -150,7 +142,7 @@
     </div>
   </section>
 
-  <!-- Certifications Section -->
+  <!-- Certifications -->
   <section id="certifications" class="slide-in full-screen">
     <div class="section-card">
       <div class="section-title"><i class="fas fa-certificate"></i> CERTIFICATIONS</div>
@@ -174,7 +166,7 @@
     </div>
   </section>
 
-  <!-- Projects Section -->
+  <!-- Projects -->
   <section id="projects" class="slide-in full-screen">
     <div class="section-card">
       <div class="section-title"><i class="fas fa-code"></i> PROJECTS</div>
@@ -211,11 +203,11 @@
     </div>
   </section>
 
-  <!-- Contact Section -->
+  <!-- Contact -->
   <section id="contact" class="slide-in full-screen">
     <div class="section-card">
       <div class="section-title"><i class="fas fa-envelope"></i> CONTACT</div>
-      <div class="contact-wrapper">
+      
         <form class="contact-form" action="mailto:chandrikaamara1@gmail.com" method="POST" enctype="text/plain">
           <input type="text" name="name" placeholder="Your Name" required />
           <input type="email" name="email" placeholder="Your Email" required />
@@ -234,7 +226,7 @@
             <a href="https://www.instagram.com/chandrika_amara/" target="_blank"><i class="fab fa-instagram"></i></a>
           </div>
         </div>
-      </div>
+    
     </div>
   </section>
 
@@ -243,8 +235,9 @@
     <p>&copy; 2025 Chandrika Amara | All rights reserved.</p>
   </footer>
 
-  <!-- Slide-in JS -->
+  <!-- Slide-in JS & Mobile Menu Toggle -->
   <script>
+    // Slide-in sections
     const slides = document.querySelectorAll('.slide-in');
     const observer = new IntersectionObserver(entries => {
       entries.forEach(entry => {
@@ -255,6 +248,14 @@
       });
     }, { threshold: 0.1 });
     slides.forEach(slide => observer.observe(slide));
+
+const toggleBtn = document.getElementById("menu-toggle");
+const navList = document.getElementById("nav-list");
+
+toggleBtn.addEventListener("click", () => {
+  navList.classList.toggle("active");
+});
+
   </script>
 </body>
 </html>
